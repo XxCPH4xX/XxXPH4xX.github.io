@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(Media/image.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 88%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 140px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #5f5f5f;
+    font-size: 15px;
+
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+
+.left-col {
+    margin-left: 6%;
+}
+
+.left-col h1 {
+    font-size: 90px;
+    color: #fff;
+    line-height: 110px;
+    float: left;
+
+}
+
+.right-col {
+    float: right;
+    margin-right: 6%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.right-col p {
+    font-size: 18px;
+    color: #5f5f5f;
+    font-weight: 400;
+    margin-right: 15px;
+}
+
+#icon {
+    width: 80px;
+    cursor: pointer;
+}
+
+.icons a {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 40px;
+
+    margin: 10px;
+    margin-left: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+
+
+    background-size: 100% 200%;
+    background-position: 0% 5%;
+
+    transition: background-position 0.5s, color 0.5s;
+}
+
+.icons a:nth-child(1) {
+    color: #1976d3;
+    background-image: linear-gradient(#fff 50%, #1976d3 50%);
+}
+
+.icons a:nth-child(2) {
+    color: #f44236;
+    background-image: linear-gradient(#fff 50%, #f44236 50%);
+}
+
+.icons a:nth-child(3) {
+    color: #03a9f5;
+    background-image: linear-gradient(#fff 50%, #03a9f5 50%);
+}
+
+.icons a:hover {
+    background-position: 0% 100%;
+    color: white;
+}
+
+.icons {
+    margin-left: 70%;
+    margin-top: 30%;
+}
+
+ul li a:hover {
+    color: rgb(243, 149, 165);
+
+}
+
+.right-col p:hover {
+    color: rgba(207, 69, 92, 0.712);
+    cursor: pointer;
+}
